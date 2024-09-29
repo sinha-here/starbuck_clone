@@ -1,0 +1,423 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Starbucks</title>
+    <link rel="stylesheet" href="./output.css">
+    <link rel="icon" href="./Starbucks images/logo.png">
+     <!-- Link Swiper's CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+  
+  <!-- Demo styles -->
+
+    <style>
+      html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+  
+      body {
+        background: #eee;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color: #000;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .swiper {
+        width: 80vw;
+        height: 30vh;
+        /* border: solid green; */
+        border-radius: 20px;
+      }
+  
+      .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        /* background: #fff; */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        /* border: solid red; */
+      }
+  
+      .swiper-slide img {
+        display: block;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+      }
+
+      .swiper-button-next{
+        /* border: solid brown; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url('../src/Starbucks images/GORIGHT.png');
+      }
+      .swiper-button-prev{
+        /* border: solid brown; */
+        height: 50px;
+        width: 50px;
+        border-radius: 50%;
+        background-image: url('../src/Starbucks images/GOLEFT.png');
+        background-color: transparent;
+      }
+    </style>
+</head>
+<body>
+
+  <!-- nav start -->
+    <nav class="bg-white border-b border-gray-200 z-[100] sticky  top-0">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div class="flex justify-between h-16">
+            <div class="flex">
+              <div class="flex-shrink-0 flex items-center">
+                <img class="h-8   
+       w-8" src="./Starbucks images/logo.png"" alt="Logo">
+              </div>
+              <div class="hidden sm:flex sm:items-center sm:ml-6">
+                <div class="flex space-x-8">
+                  <a href="#" class="text-gray-900 py-2 text-sm font-medium rounded-md hover:bg-gray-100">Home</a>
+                  <a href="#" class="text-gray-900 py-2 text-sm font-medium rounded-md hover:bg-gray-100">Gift</a>
+                  <a href="#" class="text-gray-900 py-2 text-sm font-medium rounded-md hover:bg-gray-100">Order</a>
+                  <a href="#" class="text-gray-900 py-2 text-sm font-medium rounded-md hover:bg-gray-100">Pay</a>
+                  <a href="#" class="text-gray-900 py-2 text-sm font-medium rounded-md hover:bg-gray-100">Store</a>
+                </div>
+              </div>
+            </div>
+            <div class="flex items-center">
+              <div class="hidden sm:flex sm:ml-6">
+                <div class="relative">
+                  <div class="flex items-center justify-center w-full h-full">
+                    <input type="search" class="w-full rounded-md border-black-700 outline-none shadow-sm focus:ring-indigo-500 focus:border-indigo-500" placeholder="Looking for something specific?">
+                  </div>
+                </div>
+              </div>
+              <div class="ml-3 flex items-center">
+                <div class="flex-shrink-0 relative">
+                  <div class="flex items-center justify-center w-8 h-8">
+                    <img class="rounded-full" src="./Starbucks images/Image 1.jpg" alt="Profile image">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+      <!-- nav end -->
+
+      <!-- know more start -->
+      <div class="bg-[#1E3932] flex justify-between text-white py-4 px-6">
+        <h1 class="text-2xl font-bold">Starbucks</h1>
+        <button class="bg-white text-emerald-800 rounded-full px-4 py-2">Know More</button>
+      </div>
+      <!-- know more ends -->
+
+      <!-- Beverage starts -->
+      
+ <!-- Swiper -->
+ <div class="swiper mySwiper ">
+  <div class="swiper-wrapper z-[-1]">
+    <div class="swiper-slide"><div class="bg-teal-600 text-white rounded-lg p-4 flex items-center space-x-4 w-[75vw] h-[30vh] mx-auto">
+      <!-- Image Section -->
+      <div class="relative flex-shrink-0">
+        <div class="h-16 w-16 bg-white rounded-full flex items-center justify-center">
+          <img src="./Starbucks images/285_x_595_App_removebg_preview_2_c4bc942184.png" alt="Starbucks Beverages" class="h-12 w-12 object-cover rounded-full">
+        </div>
+      </div>
+    
+      <!-- Text Section -->
+      <div class="flex-grow">
+        <h2 class="text-xl font-semibold text-start">Starbucks</h2>
+        <h3 class="text-2xl font-bold">Beverage Subscription</h3>
+        <p>Starbucks Subscription is Back! Sip Your Favourites for Less. Tap for Details. T&amp;C Apply.</p>
+      </div>
+    
+      <!-- Button Section -->
+      <div class="flex-shrink-0">
+        <a href="#" class="bg-white text-teal-600 font-semibold py-2 px-4 rounded-lg">Know More</a>
+      </div>
+    </div>
+    </div> <!--!st -->
+
+    <div class="swiper-slide"><div class="bg-green-600 text-white py-4 px-6 flex justify-between">
+      <div class="flex items-center">
+        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+          <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 15.75l-7.5-7.5 7.5-7.5" />
+        </svg>
+        <div class="flex flex-col space-y-2">
+          <h2 class="text-xl font-bold">Now Brewing</h2>
+          <h1 class="text-2xl font-bold">Starbucks Menu</h1>
+          <p>Indulge in season's feasting! Make your sips extra special. Explore Menu.</p>
+          <div class="flex items-center space-x-2">
+            <p>Starting from</p>
+            <span class="text-lg font-bold">Rs 250</span>
+          </div>
+        </div>
+        <div class="flex items-center space-x-2">
+          <img src="your-image-1.jpg" alt="Beverage" class="rounded-full w-24 h-24">
+          <img src="your-image-2.jpg" alt="Food" class="rounded-full w-24 h-24">
+        </div>
+      </div>
+      <button class="bg-white text-emerald-800 rounded-full px-4 py-2">Order now</button>
+    </div></div> <!-- ! 2nd -->
+   
+  </div>
+  <div class="swiper-button-next"></div>
+  <div class="swiper-button-prev"></div>
+</div>
+
+
+
+  <!-- Swiper JS -->
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
+
+
+      <!-- Beverage ends -->
+
+
+      <!-- handcraft curation starts -->
+      
+  <div class="max-w-7xl mx-auto py-12">
+    <h2 class="text-2xl font-bold text-center mb-10 mr-[73%]">Handcrafted Curations</h2>
+    
+    <div class="grid grid-cols-2 sm:grid-cols-3 lg:grid-cols-6 gap-8 text-center">
+
+      
+      <div class="flex flex-col items-center">
+        <img src="./Starbucks images/Bestseller.jpg" alt="Bestseller" class="w-24 h-24 rounded-full object-cover mb-4">
+        <span class="text-lg font-medium">Bestseller</span>
+      </div>
+
+
+      <div class="flex flex-col items-center">
+        <img src="./Starbucks images/Drinks.jpg" alt="Drinks" class="w-24 h-24 rounded-full object-cover mb-4">
+        <span class="text-lg font-medium">Drinks</span>
+      </div>
+
+
+      <div class="flex flex-col items-center">
+        <img src="./Starbucks images/Food.jpg" alt="Food" class="w-24 h-24 rounded-full object-cover mb-4">
+        <span class="text-lg font-medium">Food</span>
+      </div>
+
+
+      <div class="flex flex-col items-center">
+        <img src="./Starbucks images/Merchandise.jpg" alt="Merchandise" class="w-24 h-24 rounded-full object-cover mb-4">
+        <span class="text-lg font-medium">Merchandise</span>
+      </div>
+      
+
+      <div class="flex flex-col items-center">
+        <img src="./Starbucks images/CoffeeAtHome.jpg" alt="Coffee At Home" class="w-24 h-24 rounded-full object-cover mb-4">
+        <span class="text-lg font-medium">Coffee At Home</span>
+      </div>
+      
+
+      <div class="flex flex-col items-center">
+        <img src="./Starbucks images/ReadyToEat.jpg" alt="Ready to Eat" class="w-24 h-24 rounded-full object-cover mb-4">
+        <span class="text-lg font-medium">Ready to Eat</span>
+      </div>
+    </div>
+  </div>
+
+      <!-- handcraft curation ends -->
+
+
+     <!-- Barista recommendation starts -->
+
+
+     <div class="max-w-7xl mx-auto py-12 px-4">
+      <div class="flex justify-between items-center mb-6">
+        <h2 class="text-2xl font-semibold">Barista Recommends</h2>
+        <a href="#" class="text-green-700">View Menu</a>
+      </div>
+      
+      <!-- Card Container -->
+      <div class="relative flex items-center space-x-4 z-[-1] ">
+        
+       
+        <button class="absolute left-0 z-10 p-2  bg-white rounded-full shadow-md">
+          <
+        </button>
+        
+        
+        <div class="bg-white rounded-xl shadow-2xl w-80 p-4 flex flex-col space-y-2">
+          <img src="./Starbucks images/placeholder.webp " alt="Cappuccino" class="w-14 h-14 rounded-md mb-2">
+          <h3 class="font-medium text-lg">Cappuccino</h3>
+          <span class="text-sm text-gray-500">SHORT (237 ML)</span>
+          <span class="text-lg font-semibold">₹ 283.50</span>
+          <button class="bg-green-600 text-white px-4 py-2 rounded-full mt-2">Add Item</button>
+        </div>
+        
+       
+
+        <div class="bg-white rounded-lg shadow-2xl w-80 p-4 flex flex-col space-y-2">
+          <img src="./Starbucks images/100447.webp" alt="" class="w-14 h-14 rounded-md mb-2">
+          <h3 class="font-medium text-lg">Signature Hot Chocolate</h3>
+          <span class="text-sm text-gray-500">SHORT (237 ML) 284 kcal</span>
+          <span class="text-lg font-semibold">₹ 309.75</span>
+          <button class="bg-green-600 text-white px-4 py-2 rounded-full mt-2">Add Item</button>
+        </div> 
+  
+        
+        <div class="bg-white rounded-lg shadow-2xl w-80 p-4 flex flex-col space-y-2">
+          <img src="./Starbucks images/Merchandise.jpg" alt="Vanilla Milkshake" class="w-14 h-14 rounded-md mb-2">
+          <h3 class="font-medium text-lg">Vanilla Milkshake</h3>
+          <span class="text-sm text-gray-500">TALL (354 ML) 531 kcal</span>
+          <span class="text-lg font-semibold">₹ 378.00</span>
+          <button class="bg-green-600 text-white px-4 py-2 rounded-full mt-2">Add Item</button>
+        </div>
+
+        
+        <div class="bg-white rounded-lg shadow-2xl w-80 p-4 flex flex-col space-y-2">
+          <img src="./Starbucks images/ReadyToEat.jpg" alt="Vanilla Milkshake" class="w-14 h-14 rounded-md mb-2">
+          <h3 class="font-medium text-lg">Vanilla Milkshake</h3>
+          <span class="text-sm text-gray-500">TALL (354 ML) 531 kcal</span>
+          <span class="text-lg font-semibold">₹ 378.00</span>
+          <button class="bg-green-600 text-white px-4 py-2 rounded-full mt-2">Add Item</button>
+        </div>
+
+
+      
+        <div class="bg-white rounded-lg shadow-xl w-80 p-4 flex flex-col space-y-2">
+          <img src="path-to-your-image" alt="Vanilla Milkshake" class="w-14 h-14 rounded-md mb-2">
+          <h3 class="font-semibold text-lg">Vanilla Milkshake</h3>
+          <span class="text-sm text-gray-500">TALL (354 ML) 531 kcal</span>
+          <span class="text-lg font-semibold">₹ 378.00</span>
+          <button class="bg-green-600 text-white px-4 py-2 rounded-full mt-2">Add Item</button>
+        </div>
+  
+      
+        <button class="absolute right-0 z-10 p-2 bg-white rounded-full shadow-md">
+        >
+        </button>
+      </div>
+    </div>
+
+    <!-- Barista recommendation  ends -->
+
+
+    <!-- learn more about the coffee steps starts -->
+
+
+
+    <section class="relative w-[80%] m-auto h-[300px] bg-cover rounded-2xl bg-center" style="background-image: url('./Starbucks images/ICW_Live_Event_Day5_41f11ca3d2.jpg');">
+      <div class="absolute inset-0 hover:bg-"></div> <!-- Overlay -->
+      <div class="absolute top-0 left-0 p-6 text-green-900 font-semibold">
+          <span class="bg-green-300 px-3 py-1 rounded-full">Coffee Culture</span>
+      </div>
+      <div class="absolute bottom-10 left-10 text-white">
+          <h1 class="text-4xl font-bold">Art & Science Of Coffee Brewing</h1>
+          <p class="mt-2 text-lg">Master the perfect brew with Starbucks! Learn the art and science of coffee brewing.</p>
+          <a href="#" class="mt-4 inline-block bg-white text-gray-800 font-semibold px-6 py-2 rounded-full">Learn More</a>
+      </div>
+      <div class="absolute top-5 right-10 text-green-900 font-semibold">
+        <button class="bg-white rounded-full w-[12vw] text-[20px]">Discover More</button>
+      </div>
+
+
+  </section>
+        <!-- learn more about the coffee steps ends -->
+
+        
+
+
+        <!-- footer starts -->
+
+        <footer class="bg-[#0E382C] text-white py-12 mt-12 z-[-1]">
+          <div class="container mx-auto px-6 grid grid-cols-1 md:grid-cols-5 gap-8">
+              <!-- Logo Section -->
+              <div class="flex justify-center md:justify-start">
+                  <img src="./Starbucks images/logo.png" alt="Logo" class="h-12 pl-24">
+              </div>
+      
+              <!-- About Us Column -->
+              <div>
+                  <h3 class="font-semibold mb-4">About Us</h3>
+                  <ul>
+                      <li class="mb-2"><a href="#" class="hover:underline">Our Heritage</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">Coffeehouse</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">Our Company</a></li>
+                  </ul>
+              </div>
+      
+              <!-- Responsibility Column -->
+              <div>
+                  <h3 class="font-semibold mb-4">Responsibility</h3>
+                  <ul>
+                      <li class="mb-2"><a href="#" class="hover:underline">Diversity</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">Community</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">Ethical Sourcing</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">Environmental Stewardship</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">Learn More</a></li>
+                  </ul>
+              </div>
+      
+              <!-- Quick Links Column -->
+              <div>
+                  <h3 class="font-semibold mb-4">Quick Links</h3>
+                  <ul>
+                      <li class="mb-2"><a href="#" class="hover:underline">Privacy Policy</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">FAQs</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">Mobile App Terms of Use</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">Customer Service</a></li>
+                      <li class="mb-2"><a href="#" class="hover:underline">Delivery</a></li>
+                      <!-- Add more links as needed -->
+                  </ul>
+              </div>
+      
+              <!-- Social Media and App Download Column -->
+              <div class="flex flex-col items-center md:items-start">
+                  <h3 class="font-semibold mb-4">SOCIAL MEDIA</h3>
+                  <div class="flex space-x-4 mb-6">
+                      <a href="#"><i class="fab fa-instagram"></i></a>
+                      <a href="#"><i class="fab fa-facebook"></i></a>
+                      <a href="#"><i class="fab fa-twitter"></i></a>
+                  </div>
+                  <div class="flex flex-col space-y-2">
+                      <a href="#"><img src="./Starbucks images/appstoreiOS.png" alt="App Store" class="h-10"></a>
+                      <a href="#"><img src="./Starbucks images/appstoreAndroid.png" alt="Google Play" class="h-10"></a>
+                  </div>
+              </div>
+          </div>
+      
+          <!-- Footer Bottom Links -->
+          <div class="border-t border-gray-700 mt-10 pt-6 text-center text-sm text-gray-400">
+              <div class="space-x-4">
+                  <a href="#" class="hover:underline">Web Accessibility</a>
+                  <a href="#" class="hover:underline">Privacy Statement</a>
+                  <a href="#" class="hover:underline">Terms of Use</a>
+                  <a href="#" class="hover:underline">Contact Us</a>
+              </div>
+              <p class="mt-4">&copy; 2024 Starbucks Coffee Company. All rights reserved.</p>
+          </div>
+      </footer>
+
+
+        <!-- footer ends -->
+
+
+
+
+        <!--!  JS Tags -->
+
+        
+
+      </body>
+</html>
